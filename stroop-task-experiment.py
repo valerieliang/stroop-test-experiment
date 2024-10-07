@@ -94,7 +94,7 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version='',
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='C:\\Users\\TheAn\\OneDrive\\Documents\\stroop-task-experiment.py',
+        originPath='C:\Users\TheAn\OneDrive\Documents\GitHub\stroop-test-experiment\\stroop-task-experiment.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
