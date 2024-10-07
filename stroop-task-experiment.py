@@ -1,17 +1,4 @@
-﻿#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-"""
-This experiment was created using PsychoPy3 Experiment Builder (v2023.2.1),
-    on October 03, 2024, at 09:46
-If you publish work using this script the most relevant publication is:
-
-    Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
-        PsychoPy2: Experiments in behavior made easy Behav Res 51: 195. 
-        https://doi.org/10.3758/s13428-018-01193-y
-
-"""
-
-# --- Import packages ---
+﻿# --- Import packages ---
 from psychopy import locale_setup
 from psychopy import prefs
 from psychopy import plugins
@@ -474,7 +461,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     # set up handler to look after randomisation of conditions etc
     trials = data.TrialHandler(nReps=4.0, method='random', 
         extraInfo=expInfo, originPath=-1,
-        trialList=data.importConditions('ALS9_StroopTask_materials/Stroop_exp1.xlsx'),
+        trialList=data.importConditions('Stroop_wordname.xlsx'),
         seed=None, name='trials')
     thisExp.addLoop(trials)  # add the loop to the experiment
     thisTrial = trials.trialList[0]  # so we can initialise stimuli with some values
