@@ -461,7 +461,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     # set up handler to look after randomisation of conditions etc
     trials = data.TrialHandler(nReps=4.0, method='random', 
         extraInfo=expInfo, originPath=-1,
-        trialList=data.importConditions('Stroop_wordname.xlsx'),
+        trialList=data.importConditions('conditions\stroop_wordname.xlsx'),
         seed=None, name='trials')
     thisExp.addLoop(trials)  # add the loop to the experiment
     thisTrial = trials.trialList[0]  # so we can initialise stimuli with some values
